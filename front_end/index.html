@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Voice Assistance </title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Voice Assistance </h1>
+
+    <button id="record" class="record">record</button>
+    <button id="stop_record" class="stop">stop record</button>
+
+    <div class="output" style="height: 500px">
+
+    </div>
+
+
+    <h3>Transcript </h3>
+    <div class="alltranscript" style="height: 500px">
+
+    </div>
+    
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
+    <script src="recognition.js"></script>
+    <script src="recording.js"></script>
+  </body>
+</html>

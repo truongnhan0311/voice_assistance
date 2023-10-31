@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  /* overflow: hidden; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: left;
+  padding: 5px;
+}
+
+p{
+  border-top: #000 dashed 1px;
+  padding-bottom: 10px;
+  background: powderblue;
+  min-height: 90px;
+}
+
+p audio {
+  float: right
+}
+
+div {
+  height: 900px;
+  overflow: auto;
+  /* position: absolute; */
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+  
+}
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
